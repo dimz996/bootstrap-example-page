@@ -71,3 +71,8 @@ footer{
      margin-bottom: 35px;
     }
   }
+  @media screen and (max-width: 900px) {
+    .featurette {
+     margin-top: 5px;
+    }
+  }
