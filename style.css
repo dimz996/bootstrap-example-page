@@ -38,7 +38,7 @@ transform: translateX(-50%);
 .featurette-row {
     margin-left: 90px;
     margin-right: 90px;
-    text-align: left;
+    
 }
 .text{
     color: rgb(135, 146, 143);
@@ -56,3 +56,18 @@ footer{
 .slide3-caption{
     margin-bottom: 80px;
 }
+.carousel-caption h3{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 900px) {
+    .featurette-row {
+      margin:20px 0;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .coldetails {
+     margin-bottom: 35px;
+    }
+  }
